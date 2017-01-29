@@ -175,10 +175,13 @@
 
 &lt;ul&gt;
 &lt;li&gt;Repository&lt;/li&gt;
-&lt;li&gt;Branch&lt;/li&gt;
-&lt;li&gt;Fork&lt;/li&gt;
 &lt;li&gt;Commit&lt;/li&gt;
+&lt;li&gt;Branch&lt;/li&gt;
+&lt;li&gt;Merge&lt;/li&gt;
 &lt;li&gt;Push&lt;/li&gt;
+&lt;li&gt;Pull&lt;/li&gt;
+&lt;li&gt;Fork&lt;/li&gt;
+&lt;li&gt;Clone&lt;/li&gt;
 &lt;li&gt;Pull Request&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -232,18 +235,6 @@
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
-&lt;h2 id=&#34;commit-1&#34;&gt;Commit&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;A &amp;ldquo;revision&amp;rdquo;, is an individual change to a file (or set of files)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Git&amp;rsquo;s version of &amp;ldquo;saving&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Commits usually contain a commit message which is a brief description of what changes were made&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
 &lt;h2 id=&#34;push&#34;&gt;Push&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -257,7 +248,7 @@
 &lt;h2 id=&#34;pull&#34;&gt;Pull&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;pulls code from a remote repository and merges it with code in your local repository (on your computer)&lt;/li&gt;
+&lt;li&gt;Pulls code from a remote repository and merges it with code in your local repository (on your computer)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
@@ -276,6 +267,16 @@
 
 &lt;ul&gt;
 &lt;li&gt;Copies a remote repository down to your computer and creates a link between the two&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 id=&#34;pull-request&#34;&gt;Pull Request&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pull requests are proposed changes to a repository submitted by a user and accepted or rejected by a repository&amp;rsquo;s collaborators.&lt;/li&gt;
+&lt;li&gt;Pull requests each have their own discussion forum. See Using Pull Requests.&lt;/li&gt;
+&lt;li&gt;Used to perform &amp;ldquo;Code Reviews&amp;rdquo; of other developers&amp;rsquo; work&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Great resource for all things git can be found &lt;a href=&#34;https://git-scm.com/book/en/v2&#34;&gt;here&lt;/a&gt;&lt;/p&gt;

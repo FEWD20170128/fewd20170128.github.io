@@ -184,7 +184,7 @@ characters within the brackets indicates the tags purpose&lt;/li&gt;
       <guid>https://fewd20170128.github.io/01-html-basics/tag-overview/</guid>
       <description>
 
-&lt;h2 id=&#34;html-body-head-title&#34;&gt;&lt;code&gt;&amp;lt;html&amp;gt;&lt;/code&gt;, body, head, title&lt;/h2&gt;
+&lt;h2 id=&#34;html-body-head-title&#34;&gt;&lt;code&gt;&amp;lt;html&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt;&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;code&gt;&amp;lt;html&amp;gt;&lt;/code&gt;&lt;/p&gt;
@@ -300,7 +300,7 @@ characters within the brackets indicates the tags purpose&lt;/li&gt;
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;assets/paragraphs_example_browser.png&#34; alt=&#34;original left fit&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://fewd20170128.github.io/images/01/paragraphs_example_browser.png&#34; alt=&#34;original left fit&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
