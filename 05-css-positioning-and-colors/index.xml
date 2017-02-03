@@ -427,7 +427,18 @@ If you set position: relative; on an element but no other positioning attributes
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
       <guid>https://fewd20170128.github.io/05-css-positioning-and-colors/lab/</guid>
-      <description></description>
+      <description>
+
+&lt;h1 id=&#34;lab-relaxr-blog&#34;&gt;Lab: Relaxr Blog&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Work individually or in teams to recreate the html page depicted in the image below.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The files for this lab can be found in the following folder: &lt;strong&gt;starter_code/relaxr_blog&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170128.github.io/images/05/relaxr_blog.jpg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -443,9 +454,9 @@ If you set position: relative; on an element but no other positioning attributes
 &lt;p&gt;Directions:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Fork the following respository: &lt;a href=&#34;https://github.com/FEWD-1-11-17/homework-02-startup-matchmaker&#34;&gt;Homework #2&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Fork the following respository: &lt;a href=&#34;https://github.com/FEWD20170128/homework-02-startup-matchmaker&#34;&gt;Homework #2&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Review the assignment &lt;a href=&#34;https://github.com/FEWD-1-11-17/homework-02-startup-matchmaker/blob/master/README.md&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Review the assignment &lt;a href=&#34;https://github.com/FEWD20170128/homework-02-startup-matchmaker/blob/master/README.md&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Use process covered in the Git/Github Tutorial to submit your assignment&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
