@@ -409,7 +409,7 @@ If you set position: relative; on an element but no other positioning attributes
       <guid>https://fewd20170128.github.io/05-css-positioning-and-colors/code-along/</guid>
       <description>
 
-&lt;h2 id=&#34;code-along-2-fashion-blog-ii&#34;&gt;Code Along #2: Fashion Blog II&lt;/h2&gt;
+&lt;h2 id=&#34;code-along-fashion-blog-ii&#34;&gt;Code Along: Fashion Blog II&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;fashion_blog_part_II&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
