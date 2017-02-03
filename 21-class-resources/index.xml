@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>21-class-resources on FEWD Course Material</title>
+    <link>https://fewd20170128.github.io/21-class-resources/index.xml</link>
+    <description>Recent content in 21-class-resources on FEWD Course Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
+    <atom:link href="https://fewd20170128.github.io/21-class-resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Class Resources</title>
+      <link>https://fewd20170128.github.io/21-class-resources/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170128.github.io/21-class-resources/</guid>
+      <description>
+
+&lt;h1 id=&#34;class-resources&#34;&gt;Class Resources&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Videos</title>
+      <link>https://fewd20170128.github.io/21-class-resources/videos/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>https://fewd20170128.github.io/21-class-resources/videos/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=RQNWlyzaGOY&#34;&gt;Lesson 00&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=3J96tL4UeqE&#34;&gt;Lesson 01&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

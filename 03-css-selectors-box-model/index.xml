@@ -24,24 +24,6 @@
     </item>
     
     <item>
-      <title></title>
-      <link>https://fewd20170128.github.io/03-css-selectors-box-model/homework/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://fewd20170128.github.io/03-css-selectors-box-model/homework/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://fewd20170128.github.io/03-css-selectors-box-model/lab/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://fewd20170128.github.io/03-css-selectors-box-model/lab/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Objectives</title>
       <link>https://fewd20170128.github.io/03-css-selectors-box-model/objectives/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
@@ -107,7 +89,7 @@
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;anatomy-of-a-css-rule&#34;&gt;Anatomy of a CSS Rule&lt;/h2&gt;
 
@@ -127,7 +109,7 @@ h1, h2, h3 {
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;adding-css-to-your-site&#34;&gt;Adding CSS to your site&lt;/h2&gt;
 
@@ -141,7 +123,7 @@ h1, h2, h3 {
 &lt;li&gt;&lt;p&gt;External file&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h3 id=&#34;add-css-using-an-external-stylesheet-recommended-best-practice&#34;&gt;Add CSS using an external stylesheet (Recommended/Best Practice)&lt;/h3&gt;
 
@@ -182,7 +164,7 @@ p {
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h3 id=&#34;link-tag&#34;&gt;&lt;code&gt;&amp;lt;link&amp;gt;&lt;/code&gt; Tag&lt;/h3&gt;
 
@@ -224,7 +206,7 @@ p {
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; Use of the class or id attribute by itself does not change the appearance of an element; CSS/Javascript must be involved&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;class-attribute&#34;&gt;Class Attribute&lt;/h2&gt;
 
@@ -254,7 +236,7 @@ p {
 &lt;/div&gt;
 
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;id-attribute&#34;&gt;Id Attribute&lt;/h2&gt;
 
@@ -283,7 +265,7 @@ p {
 &lt;/div&gt;
 
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;naming-classes-and-ids&#34;&gt;Naming classes and ids&lt;/h2&gt;
 
@@ -291,7 +273,7 @@ p {
 &lt;li&gt;Developers can choose any name they want for classes and ids, however the names you choose should be descriptive&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;when-should-you-use-classes-instead-of-ids-or-vice-versa&#34;&gt;When should you use classes instead of ids (or vice versa)?&lt;/h2&gt;
 
@@ -321,7 +303,77 @@ p {
 &lt;li&gt;&lt;p&gt;Selectors are case sensitive, must match element names and attributes exactly&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Selector&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Meaning&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Example&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Universal Selector&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Applies to all elements&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;*{}&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Type Selector&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Match elements names&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;h1, h2, h3 {}&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Class Selector&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Matches all elements with a class attribute value matching on specified after a period (.)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;.hint {}&lt;/code&gt;, &lt;code&gt;p.hint {}&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ID Selector&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Matches all elements with a id attribute value matching on specified after a hash (#)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;#offer {}&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Child Selector&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Matches elements that are a direct child of another&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;li &amp;gt; a {}&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Descendant Selector&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Matches element that is a direct descendant of another (not just the child)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;p  a {}&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Adjacent Sibling Selector&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Matches first element that is a sibling of another&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;h1+p {}&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;General Sibling Selector&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Matches all elements that is a sibling of another&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;h1~p {}&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Attribute Selector&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Attribute selectors select an element using the presence of a given attribute or attribute value&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;input[type=&amp;quot;email&amp;quot;] {}&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;A complete list of all CSS Selectors can be found &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
 </description>
     </item>
     
@@ -347,7 +399,7 @@ p {
 &lt;li&gt;&lt;p&gt;Inheritance&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;last-rule&#34;&gt;Last Rule&lt;/h2&gt;
 
@@ -385,7 +437,7 @@ p {
 
 &lt;p&gt;Here the &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; tag wil be green because the last &lt;strong&gt;conflicting&lt;/strong&gt; rule took precedent&lt;/p&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;specificity&#34;&gt;Specificity&lt;/h2&gt;
 
@@ -401,7 +453,7 @@ p {
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;important&#34;&gt;!important&lt;/h2&gt;
 
@@ -444,7 +496,7 @@ p {
 
 &lt;p&gt;Here we used the &lt;strong&gt;!important&lt;/strong&gt; option in CSS to override the &lt;strong&gt;Specificity guideline&lt;/strong&gt; that would have had the rule with the selector of &lt;code&gt;#thing&lt;/code&gt; take precedence under &lt;strong&gt;normal circumstances&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;inheritance&#34;&gt;Inheritance&lt;/h2&gt;
 
@@ -467,6 +519,130 @@ p {
       <description>
 
 &lt;h2 id=&#34;css-box-model&#34;&gt;CSS Box Model&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Understanding the CSS Box Model is key to understanding how CSS works&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Going forward, you should &lt;strong&gt;view every element as a box&lt;/strong&gt; (because that&amp;rsquo;s how browsers view them)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170128.github.io/images/03/box_model_example_no_lines.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170128.github.io/images/03/box_model_example_lines.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Block elements in the image are outlined in red, while inline elements are outlined in green&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Every element is a box, some boxes contain other boxes &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; or &lt;code&gt;&amp;lt;article&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;CSS allows you to create rules the control each individual box&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--- Block elements (by default) start on the a new line | &lt;body&gt;&lt;p&gt;&lt;h1&gt; tags are examples of block elements--&gt;
+
+&lt;!--- Inline elements Flow within the text and do not start on a new line Examples of inline elements include: &lt;a&gt;, &lt;span&gt;, &lt;img&gt;, &lt;b&gt;--&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;box-model-consists-of&#34;&gt;Box Model consists of:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Margin&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Padding&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Border&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170128.github.io/images/03/box_model_diagram.gif&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;margin&#34;&gt;Margin&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Margins sit outside the edge of your border&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Create a gap between the edges of two adjacent boxes&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;padding&#34;&gt;Padding&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Padding is the space between the border of a box and any content contained within it.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Adding padding helps to increase readability of a box’s content&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;border&#34;&gt;Border&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Every box has a border, even if it is invisible (0 pixels wide)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Borders separates the edge of one box from another&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Code Along</title>
+      <link>https://fewd20170128.github.io/03-css-selectors-box-model/code-along/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>https://fewd20170128.github.io/03-css-selectors-box-model/code-along/</guid>
+      <description>
+
+&lt;h2 id=&#34;code-along-tags-and-boxes&#34;&gt;Code Along: Tags and Boxes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using Sublime, open the folder called &lt;strong&gt;tags_boxes&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lab</title>
+      <link>https://fewd20170128.github.io/03-css-selectors-box-model/lab/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>https://fewd20170128.github.io/03-css-selectors-box-model/lab/</guid>
+      <description>
+
+&lt;h2 id=&#34;lab-fashion-blog&#34;&gt;Lab: Fashion Blog&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Work individually or in teams to recreate the html page depicted in the image below.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The files for this lab can be found in the following folder: &lt;strong&gt;starter_code/fasion_blog&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170128.github.io/images/05/fashion_blog_final.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Homework</title>
+      <link>https://fewd20170128.github.io/03-css-selectors-box-model/homework/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>https://fewd20170128.github.io/03-css-selectors-box-model/homework/</guid>
+      <description>
+
+&lt;h2 id=&#34;homework-assignment-resume-website-for-a-famous-person&#34;&gt;Homework Assignment - Resume Website for a Famous Person&lt;/h2&gt;
+
+&lt;p&gt;Directions:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Fork the following respository: &lt;a href=&#34;https://github.com/FEWD20170128/homework-01-famous-person-resume-website&#34;&gt;Homework #1&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Review the assignment &lt;a href=&#34;https://github.com/FEWD20170128/homework-01-famous-person-resume-website/blob/master/README.md&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Use process covered in the &lt;a href=&#34;https://fewd20170128.github.io/00-dev-tools-github/git-overview&#34;&gt;Git/Github Tutorial&lt;/a&gt; to submit your assignment&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     

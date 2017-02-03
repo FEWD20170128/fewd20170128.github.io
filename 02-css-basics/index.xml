@@ -96,7 +96,7 @@
 &lt;li&gt;&lt;p&gt;Inform students that they have already seen this is use with the link tag when referencing a css file&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;example-project-with-multiple-folders-files&#34;&gt;Example Project with Multiple Folders/Files&lt;/h2&gt;
 
@@ -110,7 +110,7 @@
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h3 id=&#34;navigating-to-a-file-in-a-child-folder&#34;&gt;Navigating to a file in a Child Folder&lt;/h3&gt;
 
@@ -120,7 +120,7 @@
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h3 id=&#34;navigating-to-a-file-in-a-grandchild-folder&#34;&gt;Navigating to a file in a Grandchild Folder&lt;/h3&gt;
 
@@ -130,7 +130,7 @@
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h3 id=&#34;navigating-up-to-a-file-in-a-parent-folder&#34;&gt;Navigating up to a file in a Parent Folder&lt;/h3&gt;
 
@@ -142,7 +142,7 @@
 
 &lt;p&gt;Use &lt;code&gt;../&lt;/code&gt; to move up &lt;strong&gt;exactly 1 level&lt;/strong&gt; in the folder hierarchy&lt;/p&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h3 id=&#34;navigating-up-to-a-file-in-a-grandparent-folder&#34;&gt;Navigating up to a file in a Grandparent Folder&lt;/h3&gt;
 
@@ -180,7 +180,7 @@
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;anatomy-of-a-css-rule&#34;&gt;Anatomy of a CSS Rule&lt;/h2&gt;
 
@@ -200,7 +200,7 @@ h1, h2, h3 {
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;adding-css-to-your-site&#34;&gt;Adding CSS to your site&lt;/h2&gt;
 
@@ -214,7 +214,7 @@ h1, h2, h3 {
 &lt;li&gt;&lt;p&gt;External file&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h3 id=&#34;inline-css-avoid&#34;&gt;Inline CSS (avoid!)&lt;/h3&gt;
 
@@ -230,7 +230,7 @@ h1, h2, h3 {
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h3 id=&#34;internal-css-avoid&#34;&gt;Internal CSS (avoid!)&lt;/h3&gt;
 
@@ -262,7 +262,7 @@ h1, h2, h3 {
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h3 id=&#34;add-css-using-an-external-stylesheet-recommended-best-practice&#34;&gt;Add CSS using an external stylesheet (Recommended/Best Practice)&lt;/h3&gt;
 
@@ -303,7 +303,7 @@ p {
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h3 id=&#34;link-tag&#34;&gt;&lt;code&gt;&amp;lt;link&amp;gt;&lt;/code&gt; Tag&lt;/h3&gt;
 
