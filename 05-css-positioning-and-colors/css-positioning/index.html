@@ -776,11 +776,12 @@
 
 <li><p>Usually accompanied by box offsets: top, right, bottom, left.</p></li>
 
-<li><p>It will not effect the other elements on the page</p></li>
+<li><p>It will not effect the other elements on the page, surrounding elements <strong>stay in the position they would be in in normal flow</strong></p></li>
 </ul>
 
-<p>^
-If you set position: relative; on an element but no other positioning attributes (top, left, bottom or right), it will have no effect on it&rsquo;s positioning at all, it will be exactly as it would be if you left it as position: static; But if you DO give it some other positioning attribute, say, top: 10px;, it will shift it&rsquo;s position 10 pixels DOWN from where it would NORMALLY be</p>
+<div class="notices tip" ><p>If you set position: relative; on an element but no other positioning attributes (top, left, bottom or right), it will have no effect on it&rsquo;s positioning at all, it will be exactly as it would be if you left it as position: static; But if you DO give it some other positioning attribute, say, top: 10px;, it will shift it&rsquo;s position 10 pixels DOWN from where it would NORMALLY be</p>
+</div>
+
 
 <p><img src="/images/05/relative_positioning.png" alt="inline" /></p>
 
@@ -791,16 +792,18 @@ If you set position: relative; on an element but no other positioning attributes
 <h3 id="absolute-positioning">Absolute Positioning</h3>
 
 <ul>
-<li><p>This type of positioning takes box out of normal flow and <strong>no longer affects the position of other elements on the page</strong></p></li>
+<li><p>This type of positioning takes box out of normal flow</p></li>
 
-<li><p>Other elements act is if the element is not longer there</p></li>
+<li><p>Other elements <strong>act is if the absolutely positioned element is not longer there</strong></p></li>
 
 <li><p>Box offset properties (top or bottom and left or right) are used to position the element</p></li>
 
 <li><p>Elements positioned absolutely will be positioned relative to the nearest <strong>positioned</strong> element</p></li>
 </ul>
 
-<p>Remember that these values will be relative to the next parent element with relative (or absolute) positioning. If there is no such parent, it will default all the way back up to the <html> element itself meaning it will be placed relatively to the page itself.</p>
+<div class="notices tip" ><p>Remember that these values will be relative to the next parent element with relative (or absolute) positioning. If there is no such parent, it will default all the way back up to the <html> element itself meaning it will be placed relatively to the page itself.</p>
+</div>
+
 
 <p><img src="/images/05/absolute_positioning.png" alt="inline" /></p>
 
@@ -816,13 +819,13 @@ If you set position: relative; on an element but no other positioning attributes
 <li><p>Fixed positioned element stays in place even if user scrolls down the page</p></li>
 
 <li><p>Box offset properties (top or bottom and left or right) specify where the element should appear in relation to browser window</p></li>
-
-<li><p>Example demonstrates how one might create a fixed navbar</p></li>
 </ul>
 
 <div class="notices tip" ><p>A fixed position element is <strong>positioned relative to the viewport, or the browser window itself</strong>. The viewport doesn&rsquo;t change when the window is scrolled.</p>
 </div>
 
+
+<p>Fixed positioning can be used to create a fixed navbar</p>
 
 <p><img src="/images/05/fixed_positioning.png" alt="inline" /></p>
 

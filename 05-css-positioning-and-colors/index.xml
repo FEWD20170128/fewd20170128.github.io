@@ -257,11 +257,12 @@ body {
 
 &lt;li&gt;&lt;p&gt;Usually accompanied by box offsets: top, right, bottom, left.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;It will not effect the other elements on the page&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It will not effect the other elements on the page, surrounding elements &lt;strong&gt;stay in the position they would be in in normal flow&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;^
-If you set position: relative; on an element but no other positioning attributes (top, left, bottom or right), it will have no effect on it&amp;rsquo;s positioning at all, it will be exactly as it would be if you left it as position: static; But if you DO give it some other positioning attribute, say, top: 10px;, it will shift it&amp;rsquo;s position 10 pixels DOWN from where it would NORMALLY be&lt;/p&gt;
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;If you set position: relative; on an element but no other positioning attributes (top, left, bottom or right), it will have no effect on it&amp;rsquo;s positioning at all, it will be exactly as it would be if you left it as position: static; But if you DO give it some other positioning attribute, say, top: 10px;, it will shift it&amp;rsquo;s position 10 pixels DOWN from where it would NORMALLY be&lt;/p&gt;
+&lt;/div&gt;
+
 
 &lt;p&gt;&lt;img src=&#34;https://fewd20170128.github.io/images/05/relative_positioning.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
 
@@ -272,16 +273,18 @@ If you set position: relative; on an element but no other positioning attributes
 &lt;h3 id=&#34;absolute-positioning&#34;&gt;Absolute Positioning&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;This type of positioning takes box out of normal flow and &lt;strong&gt;no longer affects the position of other elements on the page&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;This type of positioning takes box out of normal flow&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Other elements act is if the element is not longer there&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Other elements &lt;strong&gt;act is if the absolutely positioned element is not longer there&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Box offset properties (top or bottom and left or right) are used to position the element&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Elements positioned absolutely will be positioned relative to the nearest &lt;strong&gt;positioned&lt;/strong&gt; element&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Remember that these values will be relative to the next parent element with relative (or absolute) positioning. If there is no such parent, it will default all the way back up to the &lt;html&gt; element itself meaning it will be placed relatively to the page itself.&lt;/p&gt;
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Remember that these values will be relative to the next parent element with relative (or absolute) positioning. If there is no such parent, it will default all the way back up to the &lt;html&gt; element itself meaning it will be placed relatively to the page itself.&lt;/p&gt;
+&lt;/div&gt;
+
 
 &lt;p&gt;&lt;img src=&#34;https://fewd20170128.github.io/images/05/absolute_positioning.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
 
@@ -297,13 +300,13 @@ If you set position: relative; on an element but no other positioning attributes
 &lt;li&gt;&lt;p&gt;Fixed positioned element stays in place even if user scrolls down the page&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Box offset properties (top or bottom and left or right) specify where the element should appear in relation to browser window&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Example demonstrates how one might create a fixed navbar&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;A fixed position element is &lt;strong&gt;positioned relative to the viewport, or the browser window itself&lt;/strong&gt;. The viewport doesn&amp;rsquo;t change when the window is scrolled.&lt;/p&gt;
 &lt;/div&gt;
 
+
+&lt;p&gt;Fixed positioning can be used to create a fixed navbar&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://fewd20170128.github.io/images/05/fixed_positioning.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
 
@@ -427,9 +430,7 @@ If you set position: relative; on an element but no other positioning attributes
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
       <guid>https://fewd20170128.github.io/05-css-positioning-and-colors/lab/</guid>
-      <description>
-
-&lt;h1 id=&#34;lab-relaxr-blog&#34;&gt;Lab: Relaxr Blog&lt;/h1&gt;
+      <description>&lt;p&gt;*# Lab: Relaxr Blog&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Work individually or in teams to recreate the html page depicted in the image below.&lt;/p&gt;&lt;/li&gt;
@@ -458,7 +459,7 @@ If you set position: relative; on an element but no other positioning attributes
 
 &lt;li&gt;&lt;p&gt;Review the assignment &lt;a href=&#34;https://github.com/FEWD20170128/homework-02-startup-matchmaker/blob/master/README.md&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Use process covered in the Git/Github Tutorial to submit your assignment&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use process covered in the &lt;a href=&#34;https://fewd20170128.github.io/00-dev-tools-github/github-tutorial&#34;&gt;Git/Github Tutorial&lt;/a&gt; to submit your assignment&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
