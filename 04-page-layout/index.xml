@@ -568,7 +568,7 @@ blockquote {
 &lt;h2 id=&#34;code-along-2-page-layout-using-floats&#34;&gt;Code Along #2: Page Layout using Floats&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;error_messages&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;layout_challenge&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;As a class, we&amp;rsquo;ll use floats to create a two-column layout (depicted in the image)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
