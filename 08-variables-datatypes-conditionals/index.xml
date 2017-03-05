@@ -308,7 +308,7 @@ score = 3;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Use snake case when creating variable names made up of more than one word, for example: &lt;strong&gt;firstName&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Use camel case when creating variable names made up of more than one word, for example: &lt;strong&gt;firstName&lt;/strong&gt;&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;Create variable names that use Javascript keywords such as &lt;strong&gt;var&lt;/strong&gt;, &lt;strong&gt;function&lt;/strong&gt; or &lt;strong&gt;switch&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
