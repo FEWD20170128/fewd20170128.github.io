@@ -107,6 +107,11 @@
   </url>
   
   <url>
+    <loc>https://fewd20170128.github.io/11-arrays-and-advanced-javascript-lab/objectives/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://fewd20170128.github.io/02-css-basics/agenda/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
   </url>
@@ -162,6 +167,11 @@
   </url>
   
   <url>
+    <loc>https://fewd20170128.github.io/11-arrays-and-advanced-javascript-lab/agenda/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://fewd20170128.github.io/08-variables-datatypes-conditionals/last-class-review/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
@@ -179,6 +189,11 @@
   <url>
     <loc>https://fewd20170128.github.io/05-css-positioning-and-colors/last-class-review/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fewd20170128.github.io/11-arrays-and-advanced-javascript-lab/array-overview/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
@@ -237,6 +252,11 @@
   </url>
   
   <url>
+    <loc>https://fewd20170128.github.io/11-arrays-and-advanced-javascript-lab/looping-through-arrays/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://fewd20170128.github.io/07-intro-to-jquery/programming-protips/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
@@ -258,6 +278,11 @@
   
   <url>
     <loc>https://fewd20170128.github.io/08-variables-datatypes-conditionals/arithmetic-operators/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fewd20170128.github.io/11-arrays-and-advanced-javascript-lab/code-along/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -332,6 +357,11 @@
   </url>
   
   <url>
+    <loc>https://fewd20170128.github.io/11-arrays-and-advanced-javascript-lab/this/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://fewd20170128.github.io/07-intro-to-jquery/adding-jquery/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
@@ -378,6 +408,11 @@
   
   <url>
     <loc>https://fewd20170128.github.io/06-intro-to-programming/javascript-overview/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fewd20170128.github.io/11-arrays-and-advanced-javascript-lab/lab/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -567,6 +602,11 @@
   </url>
   
   <url>
+    <loc>https://fewd20170128.github.io/11-arrays-and-advanced-javascript-lab/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://fewd20170128.github.io/05-css-positioning-and-colors/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
@@ -683,6 +723,12 @@
   
   <url>
     <loc>https://fewd20170128.github.io/10-javascript-lab/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fewd20170128.github.io/11-arrays-and-advanced-javascript-lab/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
     <priority>0</priority>
   </url>
